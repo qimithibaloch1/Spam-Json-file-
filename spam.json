@@ -1,35 +1,35 @@
 {
-  "patterns": [
+  "messages": [
     {
-      "pattern": "win\\s+\\$\\d+",
+      "text": "Congratulations! You've won a $1000 gift card. Please reply with your email address to claim your prize.",
       "label": "spam"
     },
     {
-      "pattern": "claim\\s+your\\s+prize",
-      "label": "spam"
-    },
-    {
-      "pattern": "urgent\\b.*compromised",
-      "label": "spam"
-    },
-    {
-      "pattern": "free\\s+vacation",
-      "label": "spam"
-    },
-    {
-      "pattern": "meeting\\s+at\\s+\\d+\\s+PM",
+      "text": "Hey, are we still on for the meeting at 3 PM today?",
       "label": "ham"
     },
     {
-      "pattern": "appointment\\b.*tomorrow",
+      "text": "Claim your free vacation now! Call 1-800-123-4567.",
+      "label": "spam"
+    },
+    {
+      "text": "Don't forget to bring the documents for the appointment tomorrow.",
       "label": "ham"
     },
     {
-      "pattern": "cafe\\b.*\\d+\\s+PM",
+      "text": "URGENT: Your account has been compromised. Click this link to secure your account now!",
+      "label": "spam"
+    },
+    {
+      "text": "I'll be at the cafe at 2 PM. See you then!",
       "label": "ham"
     },
     {
-      "pattern": "file\\b.*discussed",
+      "text": "Win big with our exclusive lottery. Enter now for a chance to win $5000!",
+      "label": "spam"
+    },
+    {
+      "text": "Can you send me the file we discussed yesterday?",
       "label": "ham"
     }
   ]
